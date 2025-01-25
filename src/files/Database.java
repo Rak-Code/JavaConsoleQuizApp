@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 public class Database {
     private static final String URL = "jdbc:mysql://localhost:3306/quiz_db";
     private static final String USER = "root"; 
-    private static final String PASSWORD = "Rak@1411"; 
+    private static final String PASSWORD = "yourpassword"; 
 
     public static Connection connect() throws Exception {
         return DriverManager.getConnection(URL, USER, PASSWORD);
